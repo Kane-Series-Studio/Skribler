@@ -8,6 +8,8 @@ body {
   user-select: none;
 }
 .type-selector-btn{
+  text-decoration: none;
+  color: black;
   border: 1px solid black;
   border-radius: 15px;
   cursor: pointer;
@@ -61,5 +63,13 @@ body {
   top: 93vh;
   left: 5vw;
   font-family: 'Work Sans', sans-seri;
-;
+}
+#modeTITLE{
+  position: absolute;
+  font-family: 'Work Sans', sans-seri;
+  font-weight:20;
+  left: 8%;
+  top: 1%;
+  border-bottom: .5px solid black;
+  font-size: 3vw;
 }
